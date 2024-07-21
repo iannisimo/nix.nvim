@@ -83,7 +83,7 @@ with final.pkgs.lib; let
     which-key-nvim
     #Theme
     vim-airline
-    vin-airline-themes
+    vim-airline-themes
   ];
 
   extraPackages = with pkgs; [

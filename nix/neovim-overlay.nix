@@ -84,6 +84,8 @@ with final.pkgs.lib; let
     #Theme
     vim-airline
     vim-airline-themes
+    # Mine
+    nerdtree
   ];
 
   extraPackages = with pkgs; [

@@ -9,4 +9,4 @@ keymap.set('n', '<space>nF', vim.cmd.NERDTreeFind, { desc = '[n]erdtree: [F]ind'
 vim.api.nvim_create_autocmd('VimEnter', { command = "NERDTree | wincmd p" })
 vim.api.nvim_create_autocmd('BufEnter', { command = 'if tabpagenr("$") == 1 && winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree() | call feedkeys(":quit\n") | endif' })
 
-vim.g.NERDTreeFileLines = 1
+-- vim.g.NERDTreeFileLines = 1

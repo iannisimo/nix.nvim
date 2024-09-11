@@ -12,10 +12,6 @@
     #   url = "github:Cassin01/wf.nvim";
     #   flake = false;
     # };
-    remote-sshfs = {
-      url = "github:NOSDuco/remote-sshfs.nvim";
-      flake = false;
-    };
   };
 
   outputs = inputs @ {

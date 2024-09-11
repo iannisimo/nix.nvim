@@ -87,6 +87,7 @@ with final.pkgs.lib; let
     # Mine
     nerdtree
     vim-visual-multi
+    ( mkNvimPlugin inputs.remote-sshfs "remote-sshfs" )
   ];
 
   extraPackages = with pkgs; [
